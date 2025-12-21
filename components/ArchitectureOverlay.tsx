@@ -12,8 +12,8 @@ export const ArchitectureOverlay: React.FC<ArchitectureOverlayProps> = ({ onClos
   const [previewImage, setPreviewImage] = useState<string | null>(null);
 
   const images = {
-    song: "https://pics2.baidu.com/feed/730e0cf3d7ca7bcba357c2a08c3d5c65f724a8cf.jpeg@f_auto?token=38474968735bec9b6c87caf1cc088f1a&s=5410753317467F4B1C7810C6010070B2",
-    greek: "https://pics1.baidu.com/feed/7acb0a46f21fbe09757d4de05e543b358644add9.jpeg?token=4002b7d3a472bbad14aefac0d4346d41&s=4090E833BCD75BEB36B56DDA0100D0A2"
+    song: "https://r2work.bohubs.com/image/foguangsibili.png",
+    greek: "https://r2work.bohubs.com/image/patenongshenmiaobili.png"
   };
 
   const handleImageClick = (src: string) => {
